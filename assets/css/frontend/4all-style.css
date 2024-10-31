@@ -1,0 +1,67 @@
+.payment_method_4all {
+
+}
+.payment_method_4all-bank-slip {
+
+}
+.payment_method_4all-bank-slip .form-row {
+  margin-bottom: 10px;
+}
+.payment_method_4all-bank-slip .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.payment_method_4all .form-row {
+  margin-bottom: 10px;
+}
+.payment_method_4all .form-row-installment {
+  margin-bottom: 0px !important;
+}
+.payment_method_4all .form-row-installment select {
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  background: #f0f0f0;
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+  padding: 9px;
+  min-width: 50px;
+}
+.payment_method_4all .form-row-brands {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 6px 0;
+}
+.payment_method_4all .form-row-brands img {
+  display: inline-block;
+  vertical-align: middle;
+  filter: grayscale(100%);
+  opacity: .5;
+  width: auto;
+  height: auto;
+}
+.payment_method_4all .form-row-brands img.active {
+  filter: grayscale(0);
+  opacity: 1;
+}
+#payment .payment_methods .payment_method_4all  .form-row-brands img {
+  float: none;
+  margin: 1px 4px;
+}
+
+#payment .payment_methods .payment_method_4all .alert {
+  border: 0.5px solid #ff0000;
+}
+
+#payment .payment_methods .payment_method_4all .disabled {
+  background-color: rgb(214, 214, 214);
+  cursor: not-allowed;
+}
+
+.wc_payment_method label[for='payment_method_4all'] img{
+  height: auto;
+  width: 100px;
+  margin-top: -2px;
+  margin-left: 22px;
+}

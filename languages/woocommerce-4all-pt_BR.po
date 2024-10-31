@@ -1,0 +1,369 @@
+# Pagamentos Digitais 4all.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pagamentos-digitais-4all package.
+# Thiago Souza thiago.souza@4all.com, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pagamentos-digitais-4all 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-29 09:46-0300\n"
+"PO-Revision-Date: 2019-08-29 10:01-0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. Author of the plugin/theme
+msgid "4all, Thiago Siqueira"
+msgstr "4all, Thiago Siqueira"
+
+#. Description of the plugin/theme
+msgid "Includes 4all as a payment gateway to WooCommerce."
+msgstr "Inclui 4all como seu gateway de pagamentos no Woocommerce."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/4alltecnologia/plugin_woocommerce.git"
+msgstr "https://github.com/4alltecnologia/plugin_woocommerce.git"
+
+#. Plugin Name of the plugin/theme
+msgid "Pagamentos Digitais 4all"
+msgstr "Pagamentos Digitais 4all"
+
+#: includes/bank-slip-template.php:1
+msgid "Buyer complement"
+msgstr "Complemento do comprador"
+
+#: includes/bank-slip-template.php:4
+msgid "CPF of the buyer"
+msgstr "CPF do comprador"
+
+#: includes/bank-slip-template.php:7
+msgid "Address complement"
+msgstr "Complemento de endereço"
+
+#: includes/bank-slip-template.php:10
+msgid "Residence neighborhood"
+msgstr "Bairro residencial"
+
+#: includes/bank-slip-template.php:14
+msgid "Residence number"
+msgstr "Número da residência"
+
+#: includes/bank-slip-template.php:23
+msgid ""
+"After you finish your purchase, you will have access to the bank slip that "
+"you can print and pay. It can take up to 45 minutes to be available to be "
+"paid."
+msgstr ""
+"Depois de concluir a compra, você terá acesso ao boleto bancário que pode "
+"imprimir e pagar. Pode levar até 45 minutos para que esteja disponível para "
+"ser pago."
+
+#: includes/bank-slip-thank-you-page.php:3
+msgid "Please click in the following link to view your bank slip: "
+msgstr "Por favor, clique no link a seguir para ver o seu boleto bancário: "
+
+#: includes/bank-slip-thank-you-page.php:4
+msgid "Access bank slip"
+msgstr "Acessar o boleto"
+
+#: includes/bank-slip-thank-you-page.php:6
+msgid ""
+"You can print and pay in your internet banking or in a lottery retailer. "
+"Remember, it can take up to 45 minutes to be available to be paid."
+msgstr ""
+"Você pode imprimir e pagar com seu internet banking ou em uma lotérica. "
+"Lembre-se de que pode levar até 45 minutos para que o boleto esteja "
+"disponível para ser pago."
+
+#: includes/bank-slip-thank-you-page.php:8
+msgid ""
+"After we receive the banking ticket payment confirmation, your order will be "
+"processed."
+msgstr ""
+"Depois que recebermos a confirmação do pagamento do boleto, seu pedido será "
+"processado."
+
+#: includes/class-woocommerce-4all.php:11
+msgid "4all - Credit Card"
+msgstr "4all - Cartão de crédito"
+
+#: includes/class-woocommerce-4all.php:12
+#: includes/class-woocommerce-bank-slip-4all.php:12
+msgid "Official 4all payment gateway for WooCommerce."
+msgstr "Portal oficial de pagamento 4all para WooCommerce."
+
+#: includes/class-woocommerce-4all.php:71
+#: includes/class-woocommerce-4all.php:76
+msgid "Card name"
+msgstr "Nome do portador do cartão"
+
+#: includes/class-woocommerce-4all.php:71
+#: includes/class-woocommerce-4all.php:82
+#: includes/class-woocommerce-4all.php:93
+#: includes/class-woocommerce-4all.php:104
+#: includes/class-woocommerce-4all.php:114
+#: includes/class-woocommerce-bank-slip-4all.php:153
+#: includes/class-woocommerce-bank-slip-4all.php:164
+#: includes/class-woocommerce-bank-slip-4all.php:174
+msgid "is a required field."
+msgstr "é um campo obrigatório."
+
+#: includes/class-woocommerce-4all.php:76
+#: includes/class-woocommerce-4all.php:87
+#: includes/class-woocommerce-4all.php:98
+#: includes/class-woocommerce-4all.php:108
+#: includes/class-woocommerce-4all.php:119
+#: includes/class-woocommerce-bank-slip-4all.php:158
+#: includes/class-woocommerce-bank-slip-4all.php:168
+#: includes/class-woocommerce-bank-slip-4all.php:178
+msgid "is not a valide value."
+msgstr "não é um valor válido."
+
+#: includes/class-woocommerce-4all.php:82
+#: includes/class-woocommerce-4all.php:87 includes/form-template.php:44
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: includes/class-woocommerce-4all.php:93
+#: includes/class-woocommerce-4all.php:98
+#: includes/class-woocommerce-bank-slip-4all.php:153
+#: includes/class-woocommerce-bank-slip-4all.php:158
+msgid "CPF"
+msgstr "CPF"
+
+#: includes/class-woocommerce-4all.php:104
+#: includes/class-woocommerce-4all.php:108 includes/form-template.php:60
+msgid "Expiration date"
+msgstr "Data de validade"
+
+#: includes/class-woocommerce-4all.php:114
+#: includes/class-woocommerce-4all.php:119 includes/form-template.php:64
+msgid "Security code"
+msgstr "Código de segurança"
+
+#: includes/class-woocommerce-4all.php:134
+#: includes/class-woocommerce-4all.php:225
+#: includes/class-woocommerce-bank-slip-4all.php:52
+#: includes/class-woocommerce-bank-slip-4all.php:127
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/class-woocommerce-4all.php:137
+#: includes/class-woocommerce-bank-slip-4all.php:55
+msgid ""
+"If you do not already have 4all merchant account, <a href=\"https://"
+"autocredenciamento.4all.com\" target=\"_blank\">please register in "
+"Production</a>"
+msgstr ""
+"Se você ainda não possui uma conta de comerciante, <a href=\"https://"
+"autocredenciamento.4all.com\" target=\"_blank\">por favor registre-se em "
+"Produção</a>"
+
+#: includes/class-woocommerce-4all.php:142
+#: includes/class-woocommerce-bank-slip-4all.php:60
+msgid "Show image"
+msgstr "Mostrar logo"
+
+#: includes/class-woocommerce-4all.php:145
+#: includes/class-woocommerce-bank-slip-4all.php:63
+msgid "When active show \"4all pagamentos digitais\" logo at checkout page"
+msgstr ""
+"Quando ativado mostra o logo  \"4all pagamentos digitais\" na página de "
+"compra"
+
+#: includes/class-woocommerce-4all.php:150
+#: includes/class-woocommerce-bank-slip-4all.php:68
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-woocommerce-4all.php:152
+#: includes/class-woocommerce-bank-slip-4all.php:70
+msgid "This controls the title which the user sees during checkout."
+msgstr "Controla o título que o usuário vê na página de compra."
+
+#: includes/class-woocommerce-4all.php:154
+msgid "Credit card"
+msgstr "Cartão de crédito"
+
+#: includes/class-woocommerce-4all.php:158
+#: includes/class-woocommerce-bank-slip-4all.php:76
+msgid "Description:"
+msgstr "Descrição:"
+
+#: includes/class-woocommerce-4all.php:160
+#: includes/class-woocommerce-bank-slip-4all.php:78
+msgid "Description of 4all Payment Gateway that users sees on Checkout page."
+msgstr ""
+"Descrição do Gateway de pagamento 4all que os usuários veem na página de "
+"compra"
+
+#: includes/class-woocommerce-4all.php:161
+#: includes/class-woocommerce-bank-slip-4all.php:79
+msgid "4all is a leading payment services provider."
+msgstr "4all é um provedor de serviços de pagamento."
+
+#: includes/class-woocommerce-4all.php:166
+#: includes/class-woocommerce-bank-slip-4all.php:84
+msgid "Integration Settings"
+msgstr "Configurações de Integração"
+
+#: includes/class-woocommerce-4all.php:172
+#: includes/class-woocommerce-4all.php:233
+#: includes/class-woocommerce-bank-slip-4all.php:90
+#: includes/class-woocommerce-bank-slip-4all.php:135
+msgid "MerchantKey"
+msgstr "Chave do estabelecimento"
+
+#: includes/class-woocommerce-4all.php:174
+msgid ""
+"Please enter your 4all MerchantKey. This is needed to process the payment."
+msgstr ""
+"Por favor, insira sua chave de estabelecimento 4all. Isso é necessário para "
+"processar o pagamento."
+
+#: includes/class-woocommerce-4all.php:182
+msgid "Interest Settings"
+msgstr "Configurações de juros"
+
+#: includes/class-woocommerce-4all.php:188
+msgid "Interest installments"
+msgstr "Parcelas para juros"
+
+#: includes/class-woocommerce-4all.php:190
+msgid "From how many installments the interest will be applied."
+msgstr ""
+"Indica a partir de quantas parcelas o juros será aplicado. (Incluindo a "
+"informada)"
+
+#: includes/class-woocommerce-4all.php:194
+msgid "None"
+msgstr "Nenhuma"
+
+#: includes/class-woocommerce-4all.php:211
+msgid "Interest rate"
+msgstr "Taxa percentual de juros"
+
+#: includes/class-woocommerce-4all.php:213
+msgid ""
+"Percentage interest rate that will be applied in the installments. Example: "
+"1.10"
+msgstr ""
+"Taxa percentual de juros que vai ser aplicada nas parcelas. Exemplo: 1.10"
+
+#: includes/class-woocommerce-4all.php:219
+#: includes/class-woocommerce-bank-slip-4all.php:121
+msgid "Sandbox Settings"
+msgstr "Configurações do Sandbox"
+
+#: includes/class-woocommerce-4all.php:228
+#: includes/class-woocommerce-bank-slip-4all.php:130
+msgid "When active send all transactions to homolog server"
+msgstr ""
+"Quando ativado envia todas as transações para o servidor de homologação "
+"(testes)"
+
+#: includes/class-woocommerce-4all.php:235
+#: includes/class-woocommerce-bank-slip-4all.php:137
+msgid ""
+"Please enter your merchantKey of homolog. This is needed to process the "
+"payment."
+msgstr ""
+"Por favor, insira sua chave de estabelecimento 4all do servidor de "
+"homologação (testes). Isso é necessário para processar o pagamento."
+
+#: includes/class-woocommerce-4all.php:316
+#: includes/class-woocommerce-bank-slip-4all.php:244
+msgid "Payment error: "
+msgstr "Erro de pagamento: "
+
+#: includes/class-woocommerce-bank-slip-4all.php:11
+msgid "4all - Bank slip"
+msgstr "4all - Boleto"
+
+#: includes/class-woocommerce-bank-slip-4all.php:29
+msgid ""
+"This bank slip can take up to 45 minutes after it is created to be "
+"registered and then be available paid"
+msgstr ""
+"Este boleto pode levar até 45 minutos após ser criado para ser registrado e, "
+"em seguida, estar disponível para pagamento"
+
+#: includes/class-woocommerce-bank-slip-4all.php:72
+msgid "Bank slip"
+msgstr "Boleto bancário"
+
+#: includes/class-woocommerce-bank-slip-4all.php:92
+msgid ""
+"Please enter your 4all MerchantKey of production. This is needed to process "
+"the payment."
+msgstr ""
+"Por favor, insira sua chave de estabelecimento 4all do servidor de produção. "
+"Isso é necessário para processar o pagamento."
+
+#: includes/class-woocommerce-bank-slip-4all.php:100
+msgid "Days to due date"
+msgstr "Dias para vencer"
+
+#: includes/class-woocommerce-bank-slip-4all.php:102
+msgid "Days until to bank slip due date"
+msgstr "Quantidade de dias que o boleto levará para vencer"
+
+#: includes/class-woocommerce-bank-slip-4all.php:110
+msgid "Days to expire"
+msgstr "Dias para expirar"
+
+#: includes/class-woocommerce-bank-slip-4all.php:112
+msgid "Days until to bank slip expire"
+msgstr "Quantidade de dias que o boleto levará até expirar"
+
+#: includes/class-woocommerce-bank-slip-4all.php:164
+#: includes/class-woocommerce-bank-slip-4all.php:168
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: includes/class-woocommerce-bank-slip-4all.php:174
+#: includes/class-woocommerce-bank-slip-4all.php:178
+msgid "Number"
+msgstr "Número"
+
+#: includes/class-woocommerce-bank-slip-4all.php:259
+msgid "Awaiting bank slip payment"
+msgstr "Aguardando o pagamento do boleto bancário"
+
+#: includes/form-template.php:36
+msgid "Name of the card holder (same as the card)"
+msgstr "Nome do portador do cartão (igual no cartão)"
+
+#: includes/form-template.php:40
+msgid "CPF of the bearer"
+msgstr "CPF do portador"
+
+#: includes/form-template.php:55
+msgid "There are no registered payment methods."
+msgstr "Não há métodos de pagamento registrados."
+
+#: includes/form-template.php:69
+msgid "Installment"
+msgstr "Parcelas"
+
+#: includes/form-template.php:85
+msgid " interest of "
+msgstr " juros de "
+
+#: includes/form-template.php:96
+msgid "&#9679; Approximated values"
+msgstr "&#9679; Valores aproximados"
+
+#: woocommerce-4all.php:44
+msgid "Credit card settings"
+msgstr "Configurações de cartão de crédito"
+
+#: woocommerce-4all.php:45
+msgid "Bank slip settings"
+msgstr "Configurações de boleto"
